@@ -296,6 +296,87 @@ a:hover{
         margin: 60px 10px;
     }
 }
+.footer{
+    margin: 80px 80px;
+}
+.f1{
+    background-color:#f6e2ff82;
+    margin: 40px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+}
+.f1 h4{
+    font-weight: bold;
+    margin:0 140px
+}
+.input-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px ;
+}
+.f2{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+}
+.jadoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:200px;
+}
+.jadoo p{
+    font-size: .6rem;
+}
+.jadoo h4{
+    font-weight: bold;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 60px; */
+}
+.company h6{
+    font-weight: bold;
+}
+.company p{
+    margin-bottom: 0 !important;
+    font-size: .7rem;
+}
+.a{
+    margin-top: 60px;
+    font-size: .7rem;
+}
+.icon1 img{
+    height: 20px;
+    margin-right: 20px;
+}
+.icon1{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icons p{
+    margin-bottom: 0 !important;
+    font-size: .7rem;
+    margin: 10px 0;
+}
+.icon2 img{
+    margin-top: 10px;
+    height: 30px;
+}
 
 @media (max-width:858px) {
    .menu{
@@ -334,6 +415,50 @@ a:hover{
     nav ul li a{
         font-size: 20px;
     }
+    .company h6{
+        font-size: .7rem;
+    }
+     .jadoo h4{
+        font-size: 0.9rem;
+     }
+     .jadoo{
+        width: 150px;
+     }
+    .company p{
+        font-size: .6rem;
+    }
+    .footer{
+        margin :80px 0px;
+    }
+    .f1 h4{
+        margin: 0 50px;
+    }
+    .f2{
+        margin: 0px 10px;
+    }
 }
 
 
+@media (max-width:550px) {
+    .section4{
+        margin:20px 15px
+    }
+    .brands img{
+        padding: 5px;
+    }
+    .card3{
+        margin-left: 30px;
+    }
+    .last p{
+        margin: 0px;
+    }
+    .f1 h4{
+        font-size: 1rem;
+    }
+    .f1{
+        margin:40px 10px
+    }
+    .jadoo{
+        display: none;
+    }
+}
