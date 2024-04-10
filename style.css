@@ -10,6 +10,10 @@
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+body{
+    overflow-x: hidden;
+    position: relative;
+}
  .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: .5rem;
@@ -18,16 +22,19 @@
     color: var(--bs-heading-color);
 }
 .top-image >img{
- 
+    overflow: hidden;
     position: absolute;
     top: -174px;
     right: -140px;
     z-index: -1;
-    max-width: calc(100vw + 280px); 
+    max-width: calc(100vw + 100px);
+
     max-height: calc(100vh + 348px);
     overflow: hidden;
     
 }
+
+  
 .plane1 img{
     position: absolute;
     top:155px;
@@ -284,6 +291,9 @@ a:hover{
     }
     .content1-image{
         padding-right: 0px;
+    }
+    .section3-content, .section5{
+        margin: 60px 10px;
     }
 }
 
