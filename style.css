@@ -461,4 +461,7 @@ a:hover{
     .jadoo{
         display: none;
     }
+    .email{
+        margin: 0 3px;
+    }
 }
