@@ -28,9 +28,19 @@
     overflow: hidden;
     
 }
+.plane1 img{
+    position: absolute;
+    top:155px;
+    right:40vw;
+}
+.plane2 img{
+    position: absolute;
+    top:255px;
+    right:0;
+}
 
 nav{
-    height: 80px ;
+    
     width: 100%;
     
     
@@ -39,7 +49,7 @@ label.logo{
     color:black;
 font-size: 35px;
 line-height: 80px;
-padding: 0 100px ;
+padding: 0 80px ;
 font-weight: bolder;
 }
 nav ul{
@@ -139,15 +149,144 @@ a:hover{
     color: white !important;
 }
 
+.heading{
+    margin-top: 50px;
+}
+.heading h4{
+    color: rgb(76, 71, 71);
+    font-weight: bold;
+}
+.heading h1{
+    font-weight: bolder;
+}
+.section2-content{
+    margin: 80px 50px;
+}
+.card1{
+    padding: 20px;
+ 
+}
+.card1 h2{
+    font-weight: bold;
+}
+.card1 h6{
+    font-size: 12px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3-content{
+    margin:80px 80px;
+   
+
+}
+.section4  {
+    margin: 40px 80px;
+}
+.section5{
+    margin: 80px 80px;
+}
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    border: none !important;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    margin:35px 0;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:15px;
+}
+.img-text h5{
+    font-weight: bold;
+}
+.c-img{
+    width:95px;
+   
+}
+.c-img img{
+    width:100%;
+}
+.section4-right{
+    margin-top: 20px;
+  
+}
+
+.sc{
+    position: relative;
+    width: 80px;
+}
+.ellipse{
+    position: absolute;
+    top:0
+}
+.ellipse img{
+    width:85%;
+    height: 50%;
+}
+.card3{
+    margin-left: 60px;
+    margin-top: 140px;
+    border-radius: 27px !important;
+}
+.card3 img{
+    padding: 15px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section5 h1{
+ font-size: 50px;
+ font-weight: bolder;
+ margin-top: 30px;
+}
+.section5-1 ,.section5-2{
+    padding: 30px;
+}
+.section6{
+    margin:60px 40px;
+}
+.brands{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.brands img{
+    padding: 20px;
+
+}
+
 @media (max-width:952px) {
     label.logo{
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 25px;
     }
+    nav ul{
+        margin-right: 0 ;
+       }
     nav ul li a{
         font-size: 16px;
     }
+    .content1-image{
+        padding-right: 0px;
+    }
 }
+
 @media (max-width:858px) {
    .menu{
     display: block;
@@ -156,8 +295,14 @@ a:hover{
     left:100%;
 
    }
+   .plane1 ,.plane2{
+    display:none
+   }
+   nav ul{
+    margin-right: 0px ;
+   }
    .content1{
-    margin-left: 20px;
+    margin-left: 30px;
    }
    .content1-image{
     padding-right: 0
